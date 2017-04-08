@@ -1,0 +1,27 @@
+module game_play (clk, reset, KEY, LEDR, HEX);
+	input logic clk, reset;
+	input logic [3:0] KEY;
+	output logic [9:1] LEDR;
+	output logic [6:0] HEX0;
+	
+	normalLight LED1(.clk, .reset, .L(KEY[3]), .R(KEY[0]), .NL(LEDR[2]), .NR(1'b0), .lightOn(LEDR[1]));
+	normalLight LED2(.clk, .reset, .L(KEY[3]), .R(KEY[0]), .NL(LEDR[3]), .NR(LEDR[1]), .lightOn(LEDR[2]));
+	normalLight LED3(.clk, .reset, .L(KEY[3]), .R(KEY[0]), .NL(LEDR[4]), .NR(LEDR[2]), .lightOn(LEDR[3]));
+	normalLight LED4(.clk, .reset, .L(KEY[3]), .R(KEY[0]), .NL(LEDR[5]), .NR(LEDR[3]), .lightOn(LEDR[4]));
+	centerLight LED5(.clk, .reset, .L(KEY[3]), .R(KEY[0]), .NL(LEDR[6]), .NR(LEDR[4]), .lightOn(LEDR[5]));
+	normalLight LED6(.clk, .reset, .L(KEY[3]), .R(KEY[0]), .NL(LEDR[7]), .NR(LEDR[5]), .lightOn(LEDR[6]));
+	normalLight LED7(.clk, .reset, .L(KEY[3]), .R(KEY[0]), .NL(LEDR[8]), .NR(LEDR[6]), .lightOn(LEDR[7]));
+	normalLight LED8(.clk, .reset, .L(KEY[3]), .R(KEY[0]), .NL(LEDR[9]), .NR(LEDR[7]), .lightOn(LEDR[8]));
+	normalLight LED9(.clk, .reset, .L(KEY[3]), .R(KEY[0]), .NL(1'b0), .NR(LEDR[8]), .lightOn(LEDR[9]));
+	
+	win game(.clk, .reset, .L(KEY[3]), .R(KEY[0]), .FL(LEDR[9]), .FR(LEDR[1]), .HEX0);
+	
+endmodule;
+	
+	
+	
+	
+	
+	
+	
+	

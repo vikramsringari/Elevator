@@ -1,0 +1,19 @@
+module Comparator  #(parameter WIDTH=10)(A, B, out)
+	input logic [WIDTH-1:0]A, B;
+	output logic [WIDTH:0] out;
+	logic C;
+	
+	always_comb begin
+		C = A - B;
+		if(C > 10'b0000000000)
+			out = 1'b1;
+		else 
+			out = 1'b0;
+	end
+endcase
+			
+		
+	
+
+
+	

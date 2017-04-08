@@ -1,0 +1,27 @@
+module floorCompare  #(parameter WIDTH=6)(A, B, out);
+	input logic [WIDTH-1:0]A, B;
+	output logic [2:0] out;
+	always_comb begin
+		if(A>B)
+			out = 2'b11;
+		else if(A<B) 
+			out = 2'b10;
+		else 
+			out = 2'b00;
+	end
+endmodule
+
+module comparator_testbench();
+	logic A, B, out;
+	
+	comparator dut (.A, .B, .out);
+		initial begin
+				#10;A = 0; B=0; 
+				#10;A = 1; 
+				#10;B = 1; 
+				#10;A = 0; 
+				#10;B = 0;
+		end
+
+endmodule 
+		

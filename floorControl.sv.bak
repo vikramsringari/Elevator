@@ -1,0 +1,18 @@
+module floorControl (clk, reset, up, down, direction, floorbutton, lightOn);
+	input logic clk, reset;
+	input logic up, down,
+	input logic [5:0] floorbutton;
+	output logic [6:0] lightOn;
+	
+	
+	
+	normalLight LED1(.clk, .reset, .up, .down, .direction, .floorbutton(floorbutton[0]), .lightOn(LEDR[1]));
+	normalLight LED2(.clk, .reset, .up, .down, .direction, .floorbutton(floorbutton[1]), .lightOn(LEDR[2]));
+	normalLight LED3(.clk, .reset, .up, .down, .direction, .floorbutton(floorbutton[2]), .lightOn(LEDR[3]));
+	normalLight LED4(.clk, .reset, .up, .down, .direction, .floorbutton(floorbutton[3]), .lightOn(LEDR[4]));
+	centerLight LED5(.clk, .reset, .up, .down, .direction, .floorbutton(floorbutton[4]), .lightOn(LEDR[5]));
+	normalLight LED6(.clk, .reset, .up, .down, .direction, .floorbutton(floorbutton[5]), .lightOn(LEDR[6]));
+	
+
+	
+endmodule

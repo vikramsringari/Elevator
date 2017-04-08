@@ -1,0 +1,31 @@
+module LFSR (clk, reset, q, d)
+	input logic clk, rest d;
+	output logic q;
+
+	enum { on, off } ps, ns;
+	always_comb begin
+		if(d)
+			case(ps)
+				on: ns = on;
+				off: ns = off;
+			endcase
+		else
+			ns = ps;
+		
+		if(ns == on)
+			q = 1'b1;
+		else if(ns == off)
+			q = 1'b0;
+		else
+			q = 1'bX;
+	end
+	
+	always_ff @(posedge clk)
+    	if (reset)
+         ps <= off;
+      else 
+        	ps <= ns;
+endmodule
+	
+
+

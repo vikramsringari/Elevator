@@ -1,0 +1,61 @@
+module floorDisplay (clk, reset, direction, floor, HEX0, HEX1, EAST, WEST, up_down);
+	input logic clk, reset, floor;
+	input logic [1:0] direction;
+	output logic [6:0] HEX0, HEX1;
+	output logic EAST, WEST; 
+	output logic [1:0] up_down;
+	assign up_down = direction;
+	always_comb begin
+				case (floor)
+						6'b0000001: 
+										begin
+										HEX0 = 7'b1111111;
+										HEX1 = 7'b1111001;
+										EAST = 1'b1;
+										WEST = 1'b1;
+										end
+						6'b0000010: 
+										begin
+										HEX0 = 7'b1111111;
+										HEX1 = 7'b0100100;
+										EAST = 1'b1;
+										WEST = 1'b0; 
+										end
+						6'b0000100:
+										begin
+										HEX0 = 7'b0000110;
+										HEX1 = 7'b0100100;
+										EAST = 1'b0;
+										WEST = 1'b1;
+										end
+						6'b0001000:
+										begin
+										HEX0 = 7'b1111111;
+										HEX1 = 7'b0110000;
+										EAST = 1'b1;
+										WEST = 1'b0;
+										end
+						6'b0100000:
+										begin
+										HEX0 = 7'b0000110;
+										HEX1 = 7'b0110000;
+										EAST = 1'b0;
+										WEST = 1'b1;
+										end
+						6'b1000000:
+										begin
+										HEX0 = 7'b1111111;
+										HEX1 = 7'b0011001;
+										EAST = 1'b1;
+										WEST = 1'b1;
+										end
+						default: 
+										begin
+										HEX0 = 7'bX;
+										HEX1 = 7'bX;
+										EAST = 1'bX;
+										WEST = 1'bX;
+										end
+
+				endcase
+	end

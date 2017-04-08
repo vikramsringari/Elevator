@@ -1,0 +1,1264 @@
+# Reading C:/Users/Vikram/Documents/modelsim_ase/tcl/vsim/pref.tcl 
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module UPC7seg
+# -- Compiling module UPC7seg_testbench
+# 
+# Top level modules:
+# 	UPC7seg_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoCa
+# -- Compiling module DE1_SoCa_testbench
+# 
+# Top level modules:
+# 	DE1_SoCa_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module simple
+# -- Compiling module simple_testbench
+# 
+# Top level modules:
+# 	simple_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module HazardLights
+# -- Compiling module HazardLights_testbench
+# 
+# Top level modules:
+# 	HazardLights_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module key
+# -- Compiling module key_testbench
+# 
+# Top level modules:
+# 	key_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module game_play
+# -- Compiling module game_play_testbench
+# 
+# Top level modules:
+# 	game_play_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module normalLight
+# -- Compiling module normalLight_testbench
+# 
+# Top level modules:
+# 	normalLight_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module centerLight_testbench
+# 
+# Top level modules:
+# 	centerLight_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module win
+# -- Compiling module win_testbench
+# 
+# Top level modules:
+# 	win_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module I_O
+# 
+# Top level modules:
+# 	I_O
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module TenBitLFSR
+# -- Compiling module TenBitLFSR_testbench
+# 
+# Top level modules:
+# 	TenBitLFSR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module LFSR
+# -- Compiling module LFSR_testbench
+# 
+# Top level modules:
+# 	LFSR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module comparator
+# -- Compiling module comparator_testbench
+# 
+# Top level modules:
+# 	comparator_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module clock_divider_testbench
+# 
+# Top level modules:
+# 	clock_divider_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorControl
+# -- Compiling module floorControl_testbench
+# 
+# Top level modules:
+# 	floorControl_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module firstfloorLight
+# 
+# Top level modules:
+# 	firstfloorLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorLight
+# 
+# Top level modules:
+# 	floorLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module direction
+# -- Compiling module direction_testbench
+# 
+# Top level modules:
+# 	direction_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorCompare
+# 
+# Top level modules:
+# 	floorCompare
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorDisplay
+# 
+# Top level modules:
+# 	floorDisplay
+# vsim -lib work -voptargs=\"+acc\" -t 1ps DE1_SoC_testbench 
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.direction
+# Loading work.floorCompare
+# Loading work.floorControl
+# Loading work.firstfloorLight
+# Loading work.floorLight
+# Loading work.floorDisplay
+# WARNING: No extended dataflow license exists
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Vikram  Hostname: VIKRAM-PC  ProcessID: 3008
+# 
+#           Attempting to use alternate WLF file "./wlftqv9aq7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftqv9aq7
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 223
+# Simulation Breakpoint: Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 223
+# MACRO ./runlab.do PAUSED at line 46
+add wave -position 19  sim:/DE1_SoC_testbench/dut/up_down/direction
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Vikram/Documents/EE271Labs/Lab82/DE1_SoCwave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module UPC7seg
+# -- Compiling module UPC7seg_testbench
+# 
+# Top level modules:
+# 	UPC7seg_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoCa
+# -- Compiling module DE1_SoCa_testbench
+# 
+# Top level modules:
+# 	DE1_SoCa_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module simple
+# -- Compiling module simple_testbench
+# 
+# Top level modules:
+# 	simple_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module HazardLights
+# -- Compiling module HazardLights_testbench
+# 
+# Top level modules:
+# 	HazardLights_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module key
+# -- Compiling module key_testbench
+# 
+# Top level modules:
+# 	key_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module game_play
+# -- Compiling module game_play_testbench
+# 
+# Top level modules:
+# 	game_play_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module normalLight
+# -- Compiling module normalLight_testbench
+# 
+# Top level modules:
+# 	normalLight_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module centerLight_testbench
+# 
+# Top level modules:
+# 	centerLight_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module win
+# -- Compiling module win_testbench
+# 
+# Top level modules:
+# 	win_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module I_O
+# 
+# Top level modules:
+# 	I_O
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module TenBitLFSR
+# -- Compiling module TenBitLFSR_testbench
+# 
+# Top level modules:
+# 	TenBitLFSR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module LFSR
+# -- Compiling module LFSR_testbench
+# 
+# Top level modules:
+# 	LFSR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module comparator
+# -- Compiling module comparator_testbench
+# 
+# Top level modules:
+# 	comparator_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module clock_divider_testbench
+# 
+# Top level modules:
+# 	clock_divider_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorControl
+# -- Compiling module floorControl_testbench
+# 
+# Top level modules:
+# 	floorControl_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module firstfloorLight
+# 
+# Top level modules:
+# 	firstfloorLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorLight
+# 
+# Top level modules:
+# 	floorLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module direction
+# -- Compiling module direction_testbench
+# 
+# Top level modules:
+# 	direction_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorCompare
+# 
+# Top level modules:
+# 	floorCompare
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorDisplay
+# 
+# Top level modules:
+# 	floorDisplay
+# vsim -lib work -voptargs=\"+acc\" -t 1ps DE1_SoC_testbench 
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.direction
+# Loading work.floorCompare
+# Loading work.floorControl
+# Loading work.firstfloorLight
+# Loading work.floorLight
+# Loading work.floorDisplay
+# WARNING: No extended dataflow license exists
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Vikram  Hostname: VIKRAM-PC  ProcessID: 3008
+# 
+#           Attempting to use alternate WLF file "./wlftcdd6sw".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftcdd6sw
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 223
+# Simulation Breakpoint: Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 223
+# MACRO ./runlab.do PAUSED at line 46
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module UPC7seg
+# -- Compiling module UPC7seg_testbench
+# 
+# Top level modules:
+# 	UPC7seg_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoCa
+# -- Compiling module DE1_SoCa_testbench
+# 
+# Top level modules:
+# 	DE1_SoCa_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module simple
+# -- Compiling module simple_testbench
+# 
+# Top level modules:
+# 	simple_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module HazardLights
+# -- Compiling module HazardLights_testbench
+# 
+# Top level modules:
+# 	HazardLights_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module key
+# -- Compiling module key_testbench
+# 
+# Top level modules:
+# 	key_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module game_play
+# -- Compiling module game_play_testbench
+# 
+# Top level modules:
+# 	game_play_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module normalLight
+# -- Compiling module normalLight_testbench
+# 
+# Top level modules:
+# 	normalLight_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module centerLight_testbench
+# 
+# Top level modules:
+# 	centerLight_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module win
+# -- Compiling module win_testbench
+# 
+# Top level modules:
+# 	win_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module I_O
+# 
+# Top level modules:
+# 	I_O
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module TenBitLFSR
+# -- Compiling module TenBitLFSR_testbench
+# 
+# Top level modules:
+# 	TenBitLFSR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module LFSR
+# -- Compiling module LFSR_testbench
+# 
+# Top level modules:
+# 	LFSR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module comparator
+# -- Compiling module comparator_testbench
+# 
+# Top level modules:
+# 	comparator_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module clock_divider_testbench
+# 
+# Top level modules:
+# 	clock_divider_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorControl
+# -- Compiling module floorControl_testbench
+# 
+# Top level modules:
+# 	floorControl_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module firstfloorLight
+# 
+# Top level modules:
+# 	firstfloorLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorLight
+# 
+# Top level modules:
+# 	floorLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module direction
+# -- Compiling module direction_testbench
+# 
+# Top level modules:
+# 	direction_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorCompare
+# 
+# Top level modules:
+# 	floorCompare
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorDisplay
+# 
+# Top level modules:
+# 	floorDisplay
+# vsim -lib work -voptargs=\"+acc\" -t 1ps direction_testbench 
+# Loading sv_std.std
+# Loading work.direction_testbench
+# Loading work.direction
+# Loading work.floorCompare
+# WARNING: No extended dataflow license exists
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Vikram  Hostname: VIKRAM-PC  ProcessID: 3008
+# 
+#           Attempting to use alternate WLF file "./wlftxv347e".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftxv347e
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module direction_testbench at ./direction.sv line 108
+# Simulation Breakpoint: Break in Module direction_testbench at ./direction.sv line 108
+# MACRO ./runlab.do PAUSED at line 46
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module UPC7seg
+# -- Compiling module UPC7seg_testbench
+# 
+# Top level modules:
+# 	UPC7seg_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoCa
+# -- Compiling module DE1_SoCa_testbench
+# 
+# Top level modules:
+# 	DE1_SoCa_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module simple
+# -- Compiling module simple_testbench
+# 
+# Top level modules:
+# 	simple_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module HazardLights
+# -- Compiling module HazardLights_testbench
+# 
+# Top level modules:
+# 	HazardLights_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module key
+# -- Compiling module key_testbench
+# 
+# Top level modules:
+# 	key_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module game_play
+# -- Compiling module game_play_testbench
+# 
+# Top level modules:
+# 	game_play_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module normalLight
+# -- Compiling module normalLight_testbench
+# 
+# Top level modules:
+# 	normalLight_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module centerLight_testbench
+# 
+# Top level modules:
+# 	centerLight_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module win
+# -- Compiling module win_testbench
+# 
+# Top level modules:
+# 	win_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module I_O
+# 
+# Top level modules:
+# 	I_O
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module TenBitLFSR
+# -- Compiling module TenBitLFSR_testbench
+# 
+# Top level modules:
+# 	TenBitLFSR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module LFSR
+# -- Compiling module LFSR_testbench
+# 
+# Top level modules:
+# 	LFSR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module comparator
+# -- Compiling module comparator_testbench
+# 
+# Top level modules:
+# 	comparator_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module clock_divider_testbench
+# 
+# Top level modules:
+# 	clock_divider_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorControl
+# -- Compiling module floorControl_testbench
+# 
+# Top level modules:
+# 	floorControl_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module firstfloorLight
+# 
+# Top level modules:
+# 	firstfloorLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorLight
+# 
+# Top level modules:
+# 	floorLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module direction
+# -- Compiling module direction_testbench
+# 
+# Top level modules:
+# 	direction_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorCompare
+# 
+# Top level modules:
+# 	floorCompare
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorDisplay
+# 
+# Top level modules:
+# 	floorDisplay
+# vsim -lib work -voptargs=\"+acc\" -t 1ps direction_testbench 
+# Loading sv_std.std
+# Loading work.direction_testbench
+# Loading work.direction
+# Loading work.floorCompare
+# WARNING: No extended dataflow license exists
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Vikram  Hostname: VIKRAM-PC  ProcessID: 3008
+# 
+#           Attempting to use alternate WLF file "./wlftrjvf6b".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftrjvf6b
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module direction_testbench at ./direction.sv line 108
+# Simulation Breakpoint: Break in Module direction_testbench at ./direction.sv line 108
+# MACRO ./runlab.do PAUSED at line 46
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module UPC7seg
+# -- Compiling module UPC7seg_testbench
+# 
+# Top level modules:
+# 	UPC7seg_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoCa
+# -- Compiling module DE1_SoCa_testbench
+# 
+# Top level modules:
+# 	DE1_SoCa_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module simple
+# -- Compiling module simple_testbench
+# 
+# Top level modules:
+# 	simple_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module HazardLights
+# -- Compiling module HazardLights_testbench
+# 
+# Top level modules:
+# 	HazardLights_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module key
+# -- Compiling module key_testbench
+# 
+# Top level modules:
+# 	key_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module game_play
+# -- Compiling module game_play_testbench
+# 
+# Top level modules:
+# 	game_play_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module normalLight
+# -- Compiling module normalLight_testbench
+# 
+# Top level modules:
+# 	normalLight_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module centerLight_testbench
+# 
+# Top level modules:
+# 	centerLight_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module win
+# -- Compiling module win_testbench
+# 
+# Top level modules:
+# 	win_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module I_O
+# 
+# Top level modules:
+# 	I_O
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module TenBitLFSR
+# -- Compiling module TenBitLFSR_testbench
+# 
+# Top level modules:
+# 	TenBitLFSR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module LFSR
+# -- Compiling module LFSR_testbench
+# 
+# Top level modules:
+# 	LFSR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module comparator
+# -- Compiling module comparator_testbench
+# 
+# Top level modules:
+# 	comparator_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module clock_divider_testbench
+# 
+# Top level modules:
+# 	clock_divider_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorControl
+# -- Compiling module floorControl_testbench
+# 
+# Top level modules:
+# 	floorControl_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module firstfloorLight
+# 
+# Top level modules:
+# 	firstfloorLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorLight
+# 
+# Top level modules:
+# 	floorLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module direction
+# -- Compiling module direction_testbench
+# 
+# Top level modules:
+# 	direction_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorCompare
+# -- Compiling module floorCompare_testbench
+# 
+# Top level modules:
+# 	floorCompare_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorDisplay
+# 
+# Top level modules:
+# 	floorDisplay
+# vsim -lib work -voptargs=\"+acc\" -t 1ps floorCompare_testbench 
+# Loading sv_std.std
+# Loading work.floorCompare_testbench
+# Loading work.floorCompare
+# ** Error: (vsim-8378) ./floorCompare.sv(31): Port size (6 or 6) does not match connection size (1) for implicit .name connection port 'A'. The port definition is at: ./floorCompare.sv(1).
+# 
+#         Region: /floorCompare_testbench/dut
+# ** Error: (vsim-8378) ./floorCompare.sv(31): Port size (6 or 6) does not match connection size (1) for implicit .name connection port 'B'. The port definition is at: ./floorCompare.sv(1).
+# 
+#         Region: /floorCompare_testbench/dut
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./runlab.do PAUSED at line 33
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module UPC7seg
+# -- Compiling module UPC7seg_testbench
+# 
+# Top level modules:
+# 	UPC7seg_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoCa
+# -- Compiling module DE1_SoCa_testbench
+# 
+# Top level modules:
+# 	DE1_SoCa_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module simple
+# -- Compiling module simple_testbench
+# 
+# Top level modules:
+# 	simple_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module HazardLights
+# -- Compiling module HazardLights_testbench
+# 
+# Top level modules:
+# 	HazardLights_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module key
+# -- Compiling module key_testbench
+# 
+# Top level modules:
+# 	key_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module game_play
+# -- Compiling module game_play_testbench
+# 
+# Top level modules:
+# 	game_play_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module normalLight
+# -- Compiling module normalLight_testbench
+# 
+# Top level modules:
+# 	normalLight_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module centerLight_testbench
+# 
+# Top level modules:
+# 	centerLight_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module win
+# -- Compiling module win_testbench
+# 
+# Top level modules:
+# 	win_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module I_O
+# 
+# Top level modules:
+# 	I_O
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module TenBitLFSR
+# -- Compiling module TenBitLFSR_testbench
+# 
+# Top level modules:
+# 	TenBitLFSR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module LFSR
+# -- Compiling module LFSR_testbench
+# 
+# Top level modules:
+# 	LFSR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module comparator
+# -- Compiling module comparator_testbench
+# 
+# Top level modules:
+# 	comparator_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module clock_divider_testbench
+# 
+# Top level modules:
+# 	clock_divider_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorControl
+# -- Compiling module floorControl_testbench
+# 
+# Top level modules:
+# 	floorControl_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module firstfloorLight
+# 
+# Top level modules:
+# 	firstfloorLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorLight
+# 
+# Top level modules:
+# 	floorLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module direction
+# -- Compiling module direction_testbench
+# 
+# Top level modules:
+# 	direction_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorCompare
+# -- Compiling module floorCompare_testbench
+# 
+# Top level modules:
+# 	floorCompare_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorDisplay
+# 
+# Top level modules:
+# 	floorDisplay
+# vsim -lib work -voptargs=\"+acc\" -t 1ps floorCompare_testbench 
+# Loading sv_std.std
+# Loading work.floorCompare_testbench
+# Loading work.floorCompare
+# WARNING: No extended dataflow license exists
+# ** Error: Cannot open macro file: floorCompare_wave.do
+# Error in macro ./runlab.do line 38
+# Cannot open macro file: floorCompare_wave.do
+#     while executing
+# "do  floorCompare_wave.do"
+add wave -position end  sim:/floorCompare_testbench/A
+add wave -position end  sim:/floorCompare_testbench/B
+add wave -position end  sim:/floorCompare_testbench/greater
+add wave -position end  sim:/floorCompare_testbench/lesser
+add wave -position end  sim:/floorCompare_testbench/equal
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Vikram  Hostname: VIKRAM-PC  ProcessID: 3008
+# 
+#           Attempting to use alternate WLF file "./wlft1sgq2j".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft1sgq2j
+# 
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Vikram/Documents/EE271Labs/Lab82/floorCompare_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module UPC7seg
+# -- Compiling module UPC7seg_testbench
+# 
+# Top level modules:
+# 	UPC7seg_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoCa
+# -- Compiling module DE1_SoCa_testbench
+# 
+# Top level modules:
+# 	DE1_SoCa_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module simple
+# -- Compiling module simple_testbench
+# 
+# Top level modules:
+# 	simple_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module HazardLights
+# -- Compiling module HazardLights_testbench
+# 
+# Top level modules:
+# 	HazardLights_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module key
+# -- Compiling module key_testbench
+# 
+# Top level modules:
+# 	key_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module game_play
+# -- Compiling module game_play_testbench
+# 
+# Top level modules:
+# 	game_play_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module normalLight
+# -- Compiling module normalLight_testbench
+# 
+# Top level modules:
+# 	normalLight_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module centerLight_testbench
+# 
+# Top level modules:
+# 	centerLight_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module win
+# -- Compiling module win_testbench
+# 
+# Top level modules:
+# 	win_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module I_O
+# 
+# Top level modules:
+# 	I_O
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module TenBitLFSR
+# -- Compiling module TenBitLFSR_testbench
+# 
+# Top level modules:
+# 	TenBitLFSR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module LFSR
+# -- Compiling module LFSR_testbench
+# 
+# Top level modules:
+# 	LFSR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module comparator
+# -- Compiling module comparator_testbench
+# 
+# Top level modules:
+# 	comparator_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module clock_divider_testbench
+# 
+# Top level modules:
+# 	clock_divider_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorControl
+# -- Compiling module floorControl_testbench
+# 
+# Top level modules:
+# 	floorControl_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module firstfloorLight
+# 
+# Top level modules:
+# 	firstfloorLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorLight
+# 
+# Top level modules:
+# 	floorLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module direction
+# -- Compiling module direction_testbench
+# 
+# Top level modules:
+# 	direction_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorCompare
+# -- Compiling module floorCompare_testbench
+# 
+# Top level modules:
+# 	floorCompare_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorDisplay
+# 
+# Top level modules:
+# 	floorDisplay
+# vsim -lib work -voptargs=\"+acc\" -t 1ps floorCompare_testbench 
+# Loading sv_std.std
+# Loading work.floorCompare_testbench
+# Loading work.floorCompare
+# WARNING: No extended dataflow license exists
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Vikram  Hostname: VIKRAM-PC  ProcessID: 3008
+# 
+#           Attempting to use alternate WLF file "./wlftxi8y1c".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftxi8y1c
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoC
+# -- Compiling module clock_divider
+# -- Compiling module DE1_SoC_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module UPC7seg
+# -- Compiling module UPC7seg_testbench
+# 
+# Top level modules:
+# 	UPC7seg_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# 
+# Top level modules:
+# 	seg7_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DE1_SoCa
+# -- Compiling module DE1_SoCa_testbench
+# 
+# Top level modules:
+# 	DE1_SoCa_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module simple
+# -- Compiling module simple_testbench
+# 
+# Top level modules:
+# 	simple_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module HazardLights
+# -- Compiling module HazardLights_testbench
+# 
+# Top level modules:
+# 	HazardLights_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module key
+# -- Compiling module key_testbench
+# 
+# Top level modules:
+# 	key_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module game_play
+# -- Compiling module game_play_testbench
+# 
+# Top level modules:
+# 	game_play_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module normalLight
+# -- Compiling module normalLight_testbench
+# 
+# Top level modules:
+# 	normalLight_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module centerLight
+# -- Compiling module centerLight_testbench
+# 
+# Top level modules:
+# 	centerLight_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module win
+# -- Compiling module win_testbench
+# 
+# Top level modules:
+# 	win_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module I_O
+# 
+# Top level modules:
+# 	I_O
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module TenBitLFSR
+# -- Compiling module TenBitLFSR_testbench
+# 
+# Top level modules:
+# 	TenBitLFSR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module LFSR
+# -- Compiling module LFSR_testbench
+# 
+# Top level modules:
+# 	LFSR_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module comparator
+# -- Compiling module comparator_testbench
+# 
+# Top level modules:
+# 	comparator_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module clock_divider_testbench
+# 
+# Top level modules:
+# 	clock_divider_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorControl
+# -- Compiling module floorControl_testbench
+# 
+# Top level modules:
+# 	floorControl_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module firstfloorLight
+# 
+# Top level modules:
+# 	firstfloorLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorLight
+# 
+# Top level modules:
+# 	floorLight
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module direction
+# -- Compiling module direction_testbench
+# 
+# Top level modules:
+# 	direction_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorCompare
+# -- Compiling module floorCompare_testbench
+# 
+# Top level modules:
+# 	floorCompare_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module floorDisplay
+# 
+# Top level modules:
+# 	floorDisplay
+# vsim -lib work -voptargs=\"+acc\" -t 1ps floorCompare_testbench 
+# Loading sv_std.std
+# Loading work.floorCompare_testbench
+# Loading work.floorCompare
+# WARNING: No extended dataflow license exists
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Vikram  Hostname: VIKRAM-PC  ProcessID: 3008
+# 
+#           Attempting to use alternate WLF file "./wlfta93vds".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfta93vds
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree

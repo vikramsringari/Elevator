@@ -1,0 +1,108 @@
+module seg7 (HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, SW);
+ 	output reg	[6:0]		HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+	input			[2:0]		SW;
+	reg         [6:0]    zero, P, H, o, n, E, A, d, F, r,  L, one, seven, six, g;
+	
+	assign zero = 7'b1111111;
+	assign P   = 7'b0001100;
+	assign H   = 7'b0001001;
+	assign o   = 7'b0100011;
+	assign n   = 7'b0101011;
+	assign E   = 7'b0000110;
+	assign A   = 7'b0001000;
+	assign d   = 7'b0100001;
+	assign F   = 7'b0001110;
+	assign r   = 7'b0101111;
+	assign L   = 7'b1000111;
+	assign one   = 7'b1111001;
+	assign seven = 7'b0000111;
+	assign six = 7'b0000010;
+	assign g = 7'b1000010;
+
+	always @(*)
+		case (SW)
+			3'b000: 
+						begin 
+							// Phones
+							HEX5 = zero;
+							HEX4 = P;
+							HEX3 = H;
+							HEX2 = o;
+							HEX1 = n;
+							HEX0 = E;
+						end
+			3'b001: 
+						begin 
+							// Fred Dolls
+							HEX5 = zero;
+							HEX4 = zero;
+							HEX3 = F;
+							HEX2 = r;
+							HEX1 = E;
+							HEX0 = d;
+						end
+			3'b011: 
+						begin 
+							// Rubber Hands
+							HEX5 = zero;
+							HEX4 = zero;
+							HEX3 = H;
+							HEX2 = A;
+							HEX1 = n;
+							HEX0 = d;
+						end
+			3'b100: 
+						begin 
+							// Jumbo Jet Planes
+							HEX5 = zero;
+							HEX4 = P;
+							HEX3 = L;
+							HEX2 = A;
+							HEX1 = n;
+							HEX0 = E;
+						end
+			3'b101 : begin 
+							// 1776 Revolutionary artifacts
+							HEX5 = zero;
+							HEX4 = zero;
+							HEX3 = one;
+							HEX2 = seven;
+							HEX1 = seven;
+							HEX0 = six;
+						end
+			3'b110 : begin 
+							// Dog Food
+							HEX5 = zero;
+							HEX4 = zero;
+							HEX3 = zero;
+							HEX2 = d;
+							HEX1 = o;
+							HEX0 = o;
+						end
+						
+			default:  begin 
+							// Set default	values, turns off the HEX displays
+							HEX5 = zero;
+							HEX4 = zero;
+							HEX3 = zero;
+							HEX2 = zero;
+							HEX1 = zero;
+							HEX0 = zero;
+						end
+		endcase
+endmodule
+
+module seg7_testbench();
+	wire 	   [6:0]	HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+	reg      [2:0] SW;
+	
+	seg7 dut (.HEX0, .HEX1, .HEX2, .HEX3, .HEX4, .HEX5, .SW);
+	
+	// Try all combinations of inputs/
+	integer i;
+	initial	begin
+		for (i = 0; i < 8; i++) begin
+			SW[2:0] = i; #10;
+		end
+	end
+endmodule

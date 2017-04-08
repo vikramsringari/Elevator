@@ -1,0 +1,38 @@
+module floorLight (clk, reset, L, R, NL, NR, lightOn);
+	input logic clk, reset;
+	 // L is true when left key is pressed, R is true when the right key
+	// is pressed, NL is true when the light on the left is on, and NR
+	// is true when the light on the right is on.
+	input logic L, R, NL, NR;
+	// when lightOn is true, the center light should be on.
+	output logic lightOn;
+
+	enum { on, off } ps, ns;
+	
+	always_comb begin
+		lightOn = (ps == on);
+	end
+
+	always_comb begin
+		case (ps)
+			on: 	if (R & L | ~R & ~L) 
+						ns = on;
+					else    
+						ns = off;
+			off:	if (NL & R & ~L | NR & L & ~R)  
+						ns = on;
+			    	else 	
+						ns = off;
+		endcase
+	end
+		
+		
+    // DFFs
+    always_ff @(posedge clk)
+    	if (reset)
+         ps <= off;
+      else 
+        	ps <= ns;
+	
+	
+endmodule

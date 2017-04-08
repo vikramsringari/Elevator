@@ -1,0 +1,9 @@
+module I/O (clk, reset, key, L, R);
+input logic clk, reset;
+input key0, key3;
+output L, R;
+
+	button Left (.clk, .reset, .key(key3) , .press(L));
+	button Right(.clk, .reset, .key(key0), .press(R));
+
+endmodule

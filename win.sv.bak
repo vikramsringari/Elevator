@@ -1,0 +1,43 @@
+module win (clk, reset, L, R, FL, FR, HEX0);
+	input logic clk, reset;
+	input logic L, R, FL, FR;
+	output logic [6:0] HEX0;
+	
+	enum { na, one, two } ps, ns;
+	
+	always_comb begin
+		case (ps)
+			na: 	
+				if (L & FL & ~R) 
+					ns = one;
+				else if (R & FR & ~L) 
+					ns = two;
+				else
+					ns = na;
+			one:
+				ns = one;
+			two:	
+				ns = two;
+		endcase
+		begin
+			if(ns == na)
+				HEX0 = 7'b1111111;
+			else if(ns == one)
+				HEX0 = 7'b1111001;
+			else if(ns == two)
+				HEX0 = 7'b0100100;
+			else
+				HEX0 = 7'bX;
+		end
+	end
+	
+	    // DFFs
+    always_ff @(posedge clk)
+    	if (reset)
+         ps <= na;
+      else 
+        	ps <= ns;
+
+endmodule		
+	
+	

@@ -1,0 +1,44 @@
+module direction (clk, reset, nextFloor, currentFloor, direction);
+input logic clk, reset;
+input logic [5:0] nextfloor, currentFloor;
+output logic [3:0] direction;
+logic out;
+	enum { up, down, na } ps, ns;
+	floorCompare c (.A(nextFloor), .B(currentFloor), .out); 
+	always_comb begin
+		case (ps)
+			na: 	if (out == 2'b10) 
+						ns = up;
+					else if(out == 2'b01) 
+						ns = down;
+					else
+						ns = na;
+			up:	if (nextFloor == 6'b000000)  
+						ns = na;
+			    	else 	
+						ns = up;
+			down:	if (nextFloor == 6'b000000)  
+						ns = na;
+			    	else 	
+						ns = down;
+		endcase
+		begin
+			 if(ns == up)
+					direction = 2'b10;
+			 else if(ns == down)
+					direction = 2'b01;
+		    else if(ns == na)
+					LEDR = 2'b00;
+			 else 
+					LEDR = 2'bX;
+		 end
+	end
+	
+	always_ff @(posedge clk)
+		 begin 
+			  if (reset)
+				 ps <= na;
+			  else
+				 ps <= ns;
+		  end
+endmodule

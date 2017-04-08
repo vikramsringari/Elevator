@@ -1,0 +1,13 @@
+module numberFloor (floor, LEDR);
+	input logic [5:0] floor;
+	output logic [5:0] LEDR;
+	logic [2:0] count;
+	integer i;
+	initial begin
+		for(i=0; i<6; i++)begin
+			if(floor[i] == 1'b1)
+				count = count +1'b1;
+		end
+	end
+endmodule
+	
